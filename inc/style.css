@@ -1,0 +1,176 @@
+/* body */
+
+body {
+
+	font-family: Helvetica;
+	padding: 0;
+	margin: 0;
+	background: rgb(245, 245, 220);
+	color: rgb(255, 255, 255);
+}
+
+a {
+
+	color: rgb(255, 255, 255);
+}
+
+/* header */
+
+#header {
+
+	background: rgb(128, 0, 0);
+	height: 6vh;
+	border-bottom: 3px solid rgb(50, 50, 50);;
+}
+
+#header div {
+
+	position: relative;
+	top: 15%;
+	left: 1%;
+
+}
+
+
+#header a {
+
+	text-decoration: none;
+	margin: 0;
+	font-size: 40px;
+}
+
+#header a:hover {
+
+	color: rgb(209, 209, 224);
+}
+
+/* meat */
+
+#meat {
+
+	background: rgb(77, 77, 77);
+	height: 70vh;
+	width: 70%;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	border: 5px solid rgb(77, 210, 255);
+}
+
+#meat h1 {
+
+	text-align: center;
+	font-size: 50px;
+}
+
+#meat h2 {
+
+	margin: 30px;
+	text-align: center;
+}
+
+#meat nav {
+
+	text-align: center;
+	margin-top: 13vh;
+
+}
+
+#meat li{
+
+	list-style: none;
+	margin: 30px;
+}
+
+#dataCapt {
+
+	margin: 8vh;
+}
+
+
+#meat button {
+
+
+}
+
+#meat a {
+	
+	text-decoration: none;
+	background: rgb(0, 153, 204);
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 35px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+#meat a:hover {
+
+	background: rgb(209, 209, 224);
+}
+
+#meat p {
+
+	margin: 30px;
+	margin-top: 10vh;
+	background: rgb(0, 153, 204);
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 20px; 
+	border: 2px solid rgb(0, 0, 0);
+
+}
+
+#meat table {
+
+	background: rgb(0, 153, 204);
+	font-size: 20px;
+	margin: auto auto;
+	border-collapse: collapse;
+}
+
+#meat td {
+
+	padding: 6px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+/* game */
+
+#game {
+
+	background: rgb(77, 77, 77);
+	height: 70vh;
+	width: 70%;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	border: 5px solid rgb(77, 210, 255);
+}
+
+#game p {
+
+	background: rgb(0, 153, 204);
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 20px; 
+	border: 2px solid rgb(0, 0, 0);
+
+}
+
+/* footer */
+
+#footer {
+
+	background: rgb(50, 50, 50);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#footer p {
+
+	padding-right: 20px;
+	text-align: right;
+
+}
